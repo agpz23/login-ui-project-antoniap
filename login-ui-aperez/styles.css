@@ -1,0 +1,54 @@
+.coder-box{
+    background: linear-gradient(65deg, rgb(218, 105, 64), rgb(227, 221, 217), rgb(209, 36, 140));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
+
+}
+.login-card {
+    background-color: rgb(231, 230, 230);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 35vw;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    border-radius: 15%;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.19), 0 10px 10px rgba(0,0,0,0.23);
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 400px;
+   
+}
+#username-in {
+    display: flex;
+    height: 2.5vh;
+    border-radius: 10px;
+}
+#password-in {
+    display: flex;
+    height: 2.5vh;
+    border-radius: 10px;
+}
+#login-button {
+
+
+display: flex;
+align-content: space-between;
+border-radius: 10px;
+}
+#login-button:hover {
+    display: flex;
+    align-content: space-between;
+    border-radius: 10px;
+   background-color: coral;
+   cursor: pointer;
+    
+   
+}
